@@ -1,0 +1,34 @@
+[
+  {
+    "Name": "AzureAutomationTutorialWithIdentityGraphical",
+    "RunbookType": "GraphPowerShell",
+    "Description": null,
+    "State": "Published",
+    "LogVerbose": false,
+    "LogProgress": false
+  },
+  {
+    "Name": "CaseCustodians",
+    "RunbookType": "PowerShell72",
+    "Description": null,
+    "State": "Published",
+    "LogVerbose": false,
+    "LogProgress": false
+  },
+  {
+    "Name": "eDiscoveryCases",
+    "RunbookType": "PowerShell72",
+    "Description": null,
+    "State": "Published",
+    "LogVerbose": false,
+    "LogProgress": false
+  },
+  {
+    "Name": "ProcessEdiscoveryCases",
+    "RunbookType": "PowerShell72",
+    "Description": null,
+    "State": "Published",
+    "LogVerbose": true,
+    "LogProgress": true
+  }
+]

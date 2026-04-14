@@ -1,0 +1,28 @@
+{
+  "parameters": {
+    "var_AppID": {
+      "type": "string",
+      "metadata": {
+        "description": "Encrypted Automation variable 'AppID'. Provide value securely at deployment time."
+      }
+    },
+    "var_ClientSecret": {
+      "type": "string",
+      "metadata": {
+        "description": "Encrypted Automation variable 'ClientSecret'. Provide value securely at deployment time."
+      }
+    },
+    "var_LogicAppUrl": {
+      "type": "string",
+      "metadata": {
+        "description": "Encrypted Automation variable 'LogicAppUrl'. Provide value securely at deployment time."
+      }
+    },
+    "var_TenantId": {
+      "type": "string",
+      "metadata": {
+        "description": "Encrypted Automation variable 'TenantId'. Provide value securely at deployment time."
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Microsoft.Automation/automationAccounts/variables",
+    "apiVersion": "2022-08-08",
+    "name": "[concat(parameters('automationAccountName'), '/AppID')]",
+    "properties": {
+      "description": "",
+      "isEncrypted": true,
+      "value": "[parameters('var_AppID')]"
+    }
+  },
+  {
+    "type": "Microsoft.Automation/automationAccounts/variables",
+    "apiVersion": "2022-08-08",
+    "name": "[concat(parameters('automationAccountName'), '/ClientSecret')]",
+    "properties": {
+      "description": "",
+      "isEncrypted": true,
+      "value": "[parameters('var_ClientSecret')]"
+    }
+  },
+  {
+    "type": "Microsoft.Automation/automationAccounts/variables",
+    "apiVersion": "2022-08-08",
+    "name": "[concat(parameters('automationAccountName'), '/LogicAppUrl')]",
+    "properties": {
+      "description": "",
+      "isEncrypted": true,
+      "value": "[parameters('var_LogicAppUrl')]"
+    }
+  },
+  {
+    "type": "Microsoft.Automation/automationAccounts/variables",
+    "apiVersion": "2022-08-08",
+    "name": "[concat(parameters('automationAccountName'), '/TenantId')]",
+    "properties": {
+      "description": "",
+      "isEncrypted": true,
+      "value": "[parameters('var_TenantId')]"
+    }
+  }
+]
